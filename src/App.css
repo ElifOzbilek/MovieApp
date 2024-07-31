@@ -1,0 +1,22 @@
+.movie-list{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.pagination{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.previous, .next{
+    background-color:inherit;
+    border: none;
+}
+.fa-chevron-right, .fa-chevron-left{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

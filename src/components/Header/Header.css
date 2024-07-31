@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.container{
+  margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inner-content{
+    margin-left: 80px;
+    display: inline-block;
+  }
+  ul{
+    list-style: none;
+    display:inline-block;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    display: inline-block;
+   
+  }
+ 
+  .link{
+    text-decoration: none;
+    color:white;
+    font-family: "Nunito", sans-serif;
+    margin-left: 60px;
+    
+   
+  }
+.link:hover{
+  color: #91E0E5;
+}
+.profile{
+  margin-right: 20px;
+  margin-left: 15px;
+}
+  .borderBox {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background: linear-gradient(to right,#a049afc4,  #d52c97c4, #ead569ab,  #31b2b6bf, #00ffa2ae);
+  
+    
+  }
+  .borderBox::before {
+    font-family: "Nunito", sans-serif;;
+    content: "Canlı TV";
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background-color:#0F1925;
+    border-radius: 30px;
+  }
+ 
+  .outer-content{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-right: 50px;
+  }
+ 
